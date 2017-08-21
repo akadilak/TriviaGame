@@ -1,0 +1,76 @@
+html {
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+li {
+	height: 15%;
+	list-style: none;
+	margin-top: 2%;
+	padding: 2%;
+	font-size: 20px;
+}
+
+.hover {
+	background-color: red;
+	margin-right: 3%;
+}
+.main-container{
+	height:25%;
+	width:25%;
+	position: relative;
+	padding-top:300px;
+	padding-left:70px;
+	float:left;
+	text-align:center;
+	
+}
+
+button {
+	width: 50%;
+	height: 10%;
+	font-size: 50px;
+	border: none;
+	background: #ffe900;
+	color: black;
+	font-weight: bold;
+	text-align:center;
+}
+
+#answer-media {
+	width: 40%;
+	height: 40%;
+	margin-top: 2%;
+	text-align:center;
+}
+
+#correct-answer-info,
+#answer-assessment {
+	margin-top: 1%;
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+}
+
+#restart {
+	margin-top: 5%;
+}
+
+.timer {
+	padding-top: 5%;
+	font-size:15px;
+	text-align:center;
+}
+
+#question,
+#summary {
+	padding-top: 2%;
+	font-size: 20px;
+	text-align:center;
+}
+
+.results {
+	font-size: 20px
+	padding-top: 2%;
+	text-align:center;
+}
